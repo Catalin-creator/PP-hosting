@@ -1,0 +1,189 @@
+/*-----------------------------------------------------------------------------------------------------------*/
+/*--Introduction page ani.--*/
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.ml2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 3.5em;
+  color: white;
+}
+  
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+/*--End page ani.--*/
+/*-----------------------------------------------------------------------------------------------------------*/
+/*--Beginnning intro. background styles--*/
+header {
+  background-image: url(https://wallpaperbat.com/img/491011-from-this-moment-digital-illustration-1920x1080-art-desktop-wallpaper-art-scenery-wallpaper-aesthetic-desktop-wallpaper.png);
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 970px;
+}
+
+body {
+  /*remember to put overflow-y:hidden here*/
+  margin: 0;
+}
+/*--End intro. background styles--*/
+/*-----------------------------------------------------------------------------------------------------------*/
+/*--"cadre" for intro. txt--*/
+.why-no-work {
+  text-align: center;
+  max-width: 800px;
+  padding: 65px;
+  background: rgba(255, 255, 255, 0.247);
+  outline: 4px double #FFFFFF;
+  margin: 0 auto;
+  transform: translateY(50%);
+}
+/*--End "cadre" for intro. txt--*/
+/*-----------------------------------------------------------------------------------------------------------*/
+/*--Beginning styles for .intro--*/
+nav {
+  height: 100%;
+  background-color:#6867AC;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.nav-ttl {
+  margin-top: 0%;
+  padding-top: 100px;
+}
+
+nav p {
+  font-size: 20px;
+  text-align: center;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-bottom: 150px;
+  margin-bottom: 0px;
+}
+/*--End styles for nav--*/
+/*-----------------------------------------------------------------------------------------------------------*/
+/*--Beggining of html-process txt--*/
+#html-process {
+  float: right;
+  background-color:#A267AC;
+  height: 100%;
+  margin-top: 0px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 30px;
+  text-align: justify;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+.imghtml {
+  height: 50vh;
+  float: right;
+  padding-left: 50px;
+}
+/*--End of html-process txt--*/
+/*-----------------------------------------------------------------------------------------------------------*/
+/*--Beggining of css-process txt--*/
+#css-process {
+  background-color: #CE7BB0;
+  text-align: justify;
+  font-family: 'Dongle', sans-serif;
+  font-size: 30px;
+  float: left;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.imgcss {
+  height: 50vh;
+  float: left;
+  padding-right: 50px;
+}
+/*--End of css-process txt--*/
+/*-----------------------------------------------------------------------------------------------------------*/
+/*--Beggining of js-process txt--*/
+#js-process {
+  background-color: #FFBCD1;
+  text-align: justify;
+  float: right;
+  font-size: 30px;
+  font-family: 'Dongle', sans-serif;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.imgjs {
+  float: right;
+  height: 50vh;
+  padding-left: 50px;
+}
+/*--End of js-process txt--*/
+/*-----------------------------------------------------------------------------------------------------------*/
+/*--Beggining of footer txt--*/
+.contacts {
+  float: right;
+  padding-right: 500px;
+  color: #666699;
+}
+
+.thanking-part {
+  float: right;
+  padding-right: 300px;
+  color: #666699;
+}
+
+.contacts, .thanking-part {
+  font-size: 15px;
+  font-family: 'Cabin', sans-serif;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: purple;
+}
+/*--End of footer txt--*/
+/*-----------------------------------------------------------------------------------------------------------*/
+
