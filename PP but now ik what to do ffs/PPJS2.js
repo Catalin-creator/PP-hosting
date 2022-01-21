@@ -1,7 +1,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["n'ai pas çi dur qu'on ne le crois!", "- mon expérience avec ces langues informatiques"];
+const textArray = ["n'est pas çi dur qu'on ne le crois!", "- mon expérience avec ces langues informatiques"];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 2000; // Delay between current and next text
